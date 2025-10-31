@@ -23,17 +23,15 @@ with st.sidebar:
 if page == "项目介绍":
     st.title("👩‍🎓学生成绩分析与预测系统")
 
-    b1,b2 =st.columns([1,1])
-    with b1:
-        st.header('📝项目概述')
-        st.text('本项目是一个基于streamlit的学生成绩分析平台，通过数据可视化和机器学习技术，帮助教育工作者和学生深入了解学业表现，并预测期末考试成绩。')
-        st.subheader('主要特点')
-        st.markdown('◼️**📊数据可视化：多维度展示学生学业数据**')
-        st.markdown('◼️**🎯专业分析：按专业分类的详细统计分析**')
-        st.markdown('◼️**🎲智能预测：基于机器学习模型的成绩预测**')
-        st.markdown('◼️**💡学习建议：根据预测结果提供个性化反馈**')
-    with b2:
-        st.image('images/学生数据分析示意图.png', caption='学生数据分析示意图', width=600)
+  
+    st.header('📝项目概述')
+    st.text('本项目是一个基于streamlit的学生成绩分析平台，通过数据可视化和机器学习技术，帮助教育工作者和学生深入了解学业表现，并预测期末考试成绩。')
+    st.subheader('主要特点')
+    st.markdown('◼️**📊数据可视化：多维度展示学生学业数据**')
+    st.markdown('◼️**🎯专业分析：按专业分类的详细统计分析**')
+    st.markdown('◼️**🎲智能预测：基于机器学习模型的成绩预测**')
+    st.markdown('◼️**💡学习建议：根据预测结果提供个性化反馈**')
+   
 
     st.header('🚀项目目标')
     c1,c2,c3 =st.columns(3)
@@ -230,6 +228,7 @@ else:
 
             elif submit_btn:
                 pass
+
 
 
 
